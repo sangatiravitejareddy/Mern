@@ -14,8 +14,6 @@ h1 {
   font-size: 5rem;
 }
 
-
-
 footer {
   text-align: right;
   color: midnightblue;
@@ -27,24 +25,24 @@ footer {
   margin-right: 50px;
 }
 
-.card{
+.card {
   width: 45%;
 }
 
-.left{
+.left {
   float: left;
 }
 
-.right{
+.right {
   float: right;
 }
 
-.creative{
-  color:midnightblue;
+.creative {
+  color: midnightblue;
 }
 
-@media (min-width: 680px) {
-  .logo{
+@media (max-width: 680px) {
+  .logo {
     width: 100px;
   }
 
@@ -66,5 +64,4 @@ footer {
     display: inline;
     object-fit: cover;
   }
-  
 }
